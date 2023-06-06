@@ -4,7 +4,7 @@
 - Clone the repository
   - `git clone git@github.com:adSesugh/meteor-microsoft-auth.git`
 
-- Open `client\main.jsx` and update value for clientId, authority and others 
+- Open `client/main.jsx` and update value for clientId, authority and others 
   - Note you can get clientId and authority values from [Microsoft Azure Portal](https://portal.azure.com) once your register your app.
 
 - Run `meteor npm i` to install all dependencies
