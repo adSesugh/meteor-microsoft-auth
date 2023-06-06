@@ -9,7 +9,11 @@ export const App = () => {
     scopes: ['user.read']
   })
 
-  const logoutUser = () => instance.logoutPopup()
+  const logoutUser = () => instance.logoutRedirect({
+    onRedirectNavigate: (url) => {
+      return false;
+    }
+  })
 
   return (
     <div>

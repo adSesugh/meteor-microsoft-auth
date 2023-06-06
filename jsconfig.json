@@ -51,6 +51,9 @@
       "meteor/service-configuration": [
         "/Users/adsesugh/.meteor/packages/service-configuration/1.3.1/web.browser/service_configuration_common.js",
         "/Users/adsesugh/.meteor/packages/service-configuration/1.3.1/web.browser/service_configuration_server.js"
+      ],
+      "meteor/pauldowman:dotenv": [
+        "/Users/adsesugh/.meteor/packages/pauldowman_dotenv/1.0.1/web.browser//packages/pauldowman:dotenv.js"
       ]
     }
   },
